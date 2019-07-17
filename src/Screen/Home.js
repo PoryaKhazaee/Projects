@@ -11,6 +11,7 @@ const lang = isIOS ? NativeModules.SettingsManager.settings.AppleLocale : Native
 
 export default class Home extends Component {
 
+
   render() {
     var style =  lang === 'fa_IR' ? {flexDirection : 'row-reverse'} : {flexDirection : 'row'};
     return (
