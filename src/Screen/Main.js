@@ -67,7 +67,7 @@ export default class Main extends Component {
                                 </TouchableOpacity>
                                 <TouchableOpacity style={styles.mainContentSection} onPress={() => { this.props.navigation.navigate('Test') }}>
                                     <View style={styles.mainContentSectionBox}>
-                                        <Icon type="FontAwesome5" name="exchange-alt" style={styles.mainContentSectionBoxIcon} />
+                                    <Image source={require("../image/Header/melat.jpg")} resizeMode="center" style={styles.imgkard} />
                                     </View>
                                     <Text style={styles.mainContentSectionBoxText}>کارت به کارت</Text>
                                 </TouchableOpacity>
@@ -245,6 +245,12 @@ const styles = StyleSheet.create({
         borderRadius: 30
     },
 
+    imgkard: {
+        width: "100%",
+        height: "100%",
+        alignSelf: "center",
+        borderRadius: 30
+    },
     viewLeft: {
         width: "100%",
         height: "60%",

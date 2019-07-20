@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
   textTitle: {
     textAlign: "center",
     fontFamily: "IRANSans",
-    fontSize: 20, 
+    fontSize: 20,
     color: "red",
     paddingTop: 7
   },
@@ -46,19 +46,33 @@ const styles = StyleSheet.create({
   /* ____ Start LogIn ____ */
 
   viewLogIn: {
-    alignItems: "center",
+    marginTop: 40,
     width: "100%",
-    marginTop: 40
+
   },
   inputLogIn: {
     width: "90%",
+    alignItems: "center",
+    justifyContent: "center",
     height: 40,
     margin: 10,
+    textAlign: "right",
+    color: "black",
     fontFamily: "IRANSans",
     borderBottomWidth: 1,
     borderBottomColor: "red",
     borderRadius: 10
-  }
+  },
+  touchShow: {
+    justifyContent: "center"
+  },
+  textShow: {
+    textAlign: 'left',
+    marginLeft: 10,
+    marginTop: 10,
+    color: 'red',
+  },
+
 
   /* ____ End LogIn ____ */
 
